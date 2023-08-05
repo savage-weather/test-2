@@ -1,0 +1,10 @@
+grid:
+  title: 2ndTest
+  description: 2ndTest
+  format: jpg
+  author: Unspecified
+axes:
+  Denoising: 0.4, 0.5, 0.6, 0.7, 0.8
+  Steps: 10, 12, 15, 18, 20, 22, 25
+  HighRes Steps: 4, 7, 10, 15, 20
+  CFG Scale: 5, 7, 9, 11, 13, 15

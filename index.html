@@ -1,3 +1,197 @@
-<html>
-  <h1>Test 2</h1>
-</html>
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="styles.css?vary=944c71f5" media="screen">
+    <title>2ndTest</title>
+    <meta name="description" content="2ndTest" />
+    <script src="jquery.min.js"></script>
+</head>
+<body>
+    <center>
+        <h1>2ndTest</h1>
+        <h4>2ndTest</h4>
+        <noscript>This page requires JavaScript to work. Don't worry, it's all local to the current page, and open source on GitHub.</noscript>
+        <hr>
+        <div id="top_nav_bar">
+            <div class="accordion navigation_accordion" id="navigation_accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="navigation_accordion_heading">
+                        <button class="accordion-button" type="button" id="toggle_nav_button" data-bs-toggle="collapse" data-bs-target="#navigation_accordion_collapse" aria-expanded="true" aria-controls="navigation_accordion_collapse">Navigation</button>
+                    </h2>
+                    <div id="navigation_accordion_collapse" class="accordion-collapse collapse show" aria-labelledby="navigation_accordion_heading" data-bs-parent="navigation_accordion">
+                        <div class="accordion-body">
+                            <div>
+                                <div class="accordion advanced_settings_section" id="settings_accordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="setting_accordion_heading">
+                                            <button class="accordion-button collapsed" id="toggle_adv_button" type="button" data-bs-toggle="collapse" data-bs-target="#settings_accordion_collapse" aria-expanded="false" aria-controls="settings_accordion_collapse">Advanced Settings</button>
+                                        </h2>
+                                        <div id="settings_accordion_collapse" class="accordion-collapse collapse" aria-labelledby="setting_accordion_heading" data-bs-parent="#settings_accordion">
+                                            <div class="accordion-body">
+                                                
+<h4>denoising</h4><div class="timer_box">Auto cycle every <input style="width:30em;" autocomplete="off" type="range" min="0" max="360" value="0" class="form-range timer_range" id="range_tablist_denoising"><label class="form-check-label" for="range_tablist_denoising" id="label_range_tablist_denoising">0 seconds</label></div>
+Show value: &nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_denoising__1" checked="true" onchange="javascript:toggleShowVal('denoising', '1')"> <label class="form-check-label" for="showval_denoising__1" title="Uncheck this to hide '0.4' from the page.">0.4</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_denoising__2" checked="true" onchange="javascript:toggleShowVal('denoising', '2')"> <label class="form-check-label" for="showval_denoising__2" title="Uncheck this to hide '0.5' from the page.">0.5</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_denoising__3" checked="true" onchange="javascript:toggleShowVal('denoising', '3')"> <label class="form-check-label" for="showval_denoising__3" title="Uncheck this to hide '0.6' from the page.">0.6</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_denoising__4" checked="true" onchange="javascript:toggleShowVal('denoising', '4')"> <label class="form-check-label" for="showval_denoising__4" title="Uncheck this to hide '0.7' from the page.">0.7</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_denoising__5" checked="true" onchange="javascript:toggleShowVal('denoising', '5')"> <label class="form-check-label" for="showval_denoising__5" title="Uncheck this to hide '0.8' from the page.">0.8</label>&nbsp;&nbsp;<button class="submit" onclick="javascript:toggleShowAllAxis('denoising')">Toggle All</button>
+<h4>steps</h4><div class="timer_box">Auto cycle every <input style="width:30em;" autocomplete="off" type="range" min="0" max="360" value="0" class="form-range timer_range" id="range_tablist_steps"><label class="form-check-label" for="range_tablist_steps" id="label_range_tablist_steps">0 seconds</label></div>
+Show value: &nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_steps__1" checked="true" onchange="javascript:toggleShowVal('steps', '1')"> <label class="form-check-label" for="showval_steps__1" title="Uncheck this to hide '10' from the page.">10</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_steps__2" checked="true" onchange="javascript:toggleShowVal('steps', '2')"> <label class="form-check-label" for="showval_steps__2" title="Uncheck this to hide '12' from the page.">12</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_steps__3" checked="true" onchange="javascript:toggleShowVal('steps', '3')"> <label class="form-check-label" for="showval_steps__3" title="Uncheck this to hide '15' from the page.">15</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_steps__4" checked="true" onchange="javascript:toggleShowVal('steps', '4')"> <label class="form-check-label" for="showval_steps__4" title="Uncheck this to hide '18' from the page.">18</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_steps__5" checked="true" onchange="javascript:toggleShowVal('steps', '5')"> <label class="form-check-label" for="showval_steps__5" title="Uncheck this to hide '20' from the page.">20</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_steps__6" checked="true" onchange="javascript:toggleShowVal('steps', '6')"> <label class="form-check-label" for="showval_steps__6" title="Uncheck this to hide '22' from the page.">22</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_steps__7" checked="true" onchange="javascript:toggleShowVal('steps', '7')"> <label class="form-check-label" for="showval_steps__7" title="Uncheck this to hide '25' from the page.">25</label>&nbsp;&nbsp;<button class="submit" onclick="javascript:toggleShowAllAxis('steps')">Toggle All</button>
+<h4>highres steps</h4><div class="timer_box">Auto cycle every <input style="width:30em;" autocomplete="off" type="range" min="0" max="360" value="0" class="form-range timer_range" id="range_tablist_highres_steps"><label class="form-check-label" for="range_tablist_highres_steps" id="label_range_tablist_highres_steps">0 seconds</label></div>
+Show value: &nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_highres_steps__1" checked="true" onchange="javascript:toggleShowVal('highres_steps', '1')"> <label class="form-check-label" for="showval_highres_steps__1" title="Uncheck this to hide '4' from the page.">4</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_highres_steps__2" checked="true" onchange="javascript:toggleShowVal('highres_steps', '2')"> <label class="form-check-label" for="showval_highres_steps__2" title="Uncheck this to hide '7' from the page.">7</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_highres_steps__3" checked="true" onchange="javascript:toggleShowVal('highres_steps', '3')"> <label class="form-check-label" for="showval_highres_steps__3" title="Uncheck this to hide '10' from the page.">10</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_highres_steps__4" checked="true" onchange="javascript:toggleShowVal('highres_steps', '4')"> <label class="form-check-label" for="showval_highres_steps__4" title="Uncheck this to hide '15' from the page.">15</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_highres_steps__5" checked="true" onchange="javascript:toggleShowVal('highres_steps', '5')"> <label class="form-check-label" for="showval_highres_steps__5" title="Uncheck this to hide '20' from the page.">20</label>&nbsp;&nbsp;<button class="submit" onclick="javascript:toggleShowAllAxis('highres_steps')">Toggle All</button>
+<h4>cfg scale</h4><div class="timer_box">Auto cycle every <input style="width:30em;" autocomplete="off" type="range" min="0" max="360" value="0" class="form-range timer_range" id="range_tablist_cfg_scale"><label class="form-check-label" for="range_tablist_cfg_scale" id="label_range_tablist_cfg_scale">0 seconds</label></div>
+Show value: &nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_cfg_scale__1" checked="true" onchange="javascript:toggleShowVal('cfg_scale', '1')"> <label class="form-check-label" for="showval_cfg_scale__1" title="Uncheck this to hide '5.0' from the page.">5.0</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_cfg_scale__2" checked="true" onchange="javascript:toggleShowVal('cfg_scale', '2')"> <label class="form-check-label" for="showval_cfg_scale__2" title="Uncheck this to hide '7.0' from the page.">7.0</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_cfg_scale__3" checked="true" onchange="javascript:toggleShowVal('cfg_scale', '3')"> <label class="form-check-label" for="showval_cfg_scale__3" title="Uncheck this to hide '9.0' from the page.">9.0</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_cfg_scale__4" checked="true" onchange="javascript:toggleShowVal('cfg_scale', '4')"> <label class="form-check-label" for="showval_cfg_scale__4" title="Uncheck this to hide '11.0' from the page.">11.0</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_cfg_scale__5" checked="true" onchange="javascript:toggleShowVal('cfg_scale', '5')"> <label class="form-check-label" for="showval_cfg_scale__5" title="Uncheck this to hide '13.0' from the page.">13.0</label>&nbsp;<input class="form-check-input" type="checkbox" autocomplete="off" id="showval_cfg_scale__6" checked="true" onchange="javascript:toggleShowVal('cfg_scale', '6')"> <label class="form-check-label" for="showval_cfg_scale__6" title="Uncheck this to hide '15.0' from the page.">15.0</label>&nbsp;&nbsp;<button class="submit" onclick="javascript:toggleShowAllAxis('cfg_scale')">Toggle All</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div style="margin: auto; width: fit-content;"><table class="sel_table">
+<tr class="primary">
+<td>
+<h4>denoising</h4>
+<div class="axis_table_cell emptytab"></div></td>
+<td><ul class="nav nav-tabs" role="tablist" id="tablist_denoising">
+<li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" href="#tab_denoising__1" id="clicktab_denoising__1" aria-selected="true" role="tab" title="0.4: ">0.4</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_denoising__2" id="clicktab_denoising__2" aria-selected="false" role="tab" title="0.5: ">0.5</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_denoising__3" id="clicktab_denoising__3" aria-selected="false" role="tab" title="0.6: ">0.6</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_denoising__4" id="clicktab_denoising__4" aria-selected="false" role="tab" title="0.7: ">0.7</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_denoising__5" id="clicktab_denoising__5" aria-selected="false" role="tab" title="0.8: ">0.8</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active show emptytab" id="tab_denoising__1" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_denoising__2" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_denoising__3" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_denoising__4" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_denoising__5" role="tabpanel"><div class="tabval_subdiv"></div></div>
+</div></td></tr>
+<tr class="secondary">
+<td>
+<h4>steps</h4>
+<div class="axis_table_cell emptytab"></div></td>
+<td><ul class="nav nav-tabs" role="tablist" id="tablist_steps">
+<li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" href="#tab_steps__1" id="clicktab_steps__1" aria-selected="true" role="tab" title="10: ">10</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_steps__2" id="clicktab_steps__2" aria-selected="false" role="tab" title="12: ">12</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_steps__3" id="clicktab_steps__3" aria-selected="false" role="tab" title="15: ">15</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_steps__4" id="clicktab_steps__4" aria-selected="false" role="tab" title="18: ">18</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_steps__5" id="clicktab_steps__5" aria-selected="false" role="tab" title="20: ">20</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_steps__6" id="clicktab_steps__6" aria-selected="false" role="tab" title="22: ">22</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_steps__7" id="clicktab_steps__7" aria-selected="false" role="tab" title="25: ">25</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active show emptytab" id="tab_steps__1" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_steps__2" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_steps__3" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_steps__4" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_steps__5" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_steps__6" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_steps__7" role="tabpanel"><div class="tabval_subdiv"></div></div>
+</div></td></tr>
+<tr class="primary">
+<td>
+<h4>highres steps</h4>
+<div class="axis_table_cell emptytab"></div></td>
+<td><ul class="nav nav-tabs" role="tablist" id="tablist_highres_steps">
+<li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" href="#tab_highres_steps__1" id="clicktab_highres_steps__1" aria-selected="true" role="tab" title="4: ">4</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_highres_steps__2" id="clicktab_highres_steps__2" aria-selected="false" role="tab" title="7: ">7</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_highres_steps__3" id="clicktab_highres_steps__3" aria-selected="false" role="tab" title="10: ">10</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_highres_steps__4" id="clicktab_highres_steps__4" aria-selected="false" role="tab" title="15: ">15</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_highres_steps__5" id="clicktab_highres_steps__5" aria-selected="false" role="tab" title="20: ">20</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active show emptytab" id="tab_highres_steps__1" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_highres_steps__2" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_highres_steps__3" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_highres_steps__4" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_highres_steps__5" role="tabpanel"><div class="tabval_subdiv"></div></div>
+</div></td></tr>
+<tr class="secondary">
+<td>
+<h4>cfg scale</h4>
+<div class="axis_table_cell emptytab"></div></td>
+<td><ul class="nav nav-tabs" role="tablist" id="tablist_cfg_scale">
+<li class="nav-item" role="presentation"><a class="nav-link active" data-bs-toggle="tab" href="#tab_cfg_scale__1" id="clicktab_cfg_scale__1" aria-selected="true" role="tab" title="5.0: ">5.0</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_cfg_scale__2" id="clicktab_cfg_scale__2" aria-selected="false" role="tab" title="7.0: ">7.0</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_cfg_scale__3" id="clicktab_cfg_scale__3" aria-selected="false" role="tab" title="9.0: ">9.0</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_cfg_scale__4" id="clicktab_cfg_scale__4" aria-selected="false" role="tab" title="11.0: ">11.0</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_cfg_scale__5" id="clicktab_cfg_scale__5" aria-selected="false" role="tab" title="13.0: ">13.0</a></li>
+<li class="nav-item" role="presentation"><a class="nav-link" data-bs-toggle="tab" href="#tab_cfg_scale__6" id="clicktab_cfg_scale__6" aria-selected="false" role="tab" title="15.0: ">15.0</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active show emptytab" id="tab_cfg_scale__1" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_cfg_scale__2" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_cfg_scale__3" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_cfg_scale__4" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_cfg_scale__5" role="tabpanel"><div class="tabval_subdiv"></div></div>
+<div class="tab-pane emptytab" id="tab_cfg_scale__6" role="tabpanel"><div class="tabval_subdiv"></div></div>
+</div></td></tr>
+</table>
+<div class="axis_selectors"><br><div class="btn-group" role="group" aria-label="Basic radio toggle button group">X Axis:&nbsp;
+<input type="radio" class="btn-check" name="x_axis_selector" id="x_denoising" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x_denoising" title="">denoising</label>
+<input type="radio" class="btn-check" name="x_axis_selector" id="x_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x_steps" title="">steps</label>
+<input type="radio" class="btn-check" name="x_axis_selector" id="x_highres_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x_highres_steps" title="">highres steps</label>
+<input type="radio" class="btn-check" name="x_axis_selector" id="x_cfg_scale" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x_cfg_scale" title="">cfg scale</label>
+</div>
+<br><div class="btn-group" role="group" aria-label="Basic radio toggle button group">Y Axis:&nbsp;
+<input type="radio" class="btn-check" name="y_axis_selector" id="y_denoising" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y_denoising" title="">denoising</label>
+<input type="radio" class="btn-check" name="y_axis_selector" id="y_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y_steps" title="">steps</label>
+<input type="radio" class="btn-check" name="y_axis_selector" id="y_highres_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y_highres_steps" title="">highres steps</label>
+<input type="radio" class="btn-check" name="y_axis_selector" id="y_cfg_scale" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y_cfg_scale" title="">cfg scale</label>
+</div>
+<br><div class="btn-group" role="group" aria-label="Basic radio toggle button group">X Super-Axis:&nbsp;
+<input type="radio" class="btn-check" name="x2_axis_selector" id="x2_none" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x2_none" title="None">None</label>
+<input type="radio" class="btn-check" name="x2_axis_selector" id="x2_denoising" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x2_denoising" title="">denoising</label>
+<input type="radio" class="btn-check" name="x2_axis_selector" id="x2_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x2_steps" title="">steps</label>
+<input type="radio" class="btn-check" name="x2_axis_selector" id="x2_highres_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x2_highres_steps" title="">highres steps</label>
+<input type="radio" class="btn-check" name="x2_axis_selector" id="x2_cfg_scale" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="x2_cfg_scale" title="">cfg scale</label>
+</div>
+<br><div class="btn-group" role="group" aria-label="Basic radio toggle button group">Y Super-Axis:&nbsp;
+<input type="radio" class="btn-check" name="y2_axis_selector" id="y2_none" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y2_none" title="None">None</label>
+<input type="radio" class="btn-check" name="y2_axis_selector" id="y2_denoising" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y2_denoising" title="">denoising</label>
+<input type="radio" class="btn-check" name="y2_axis_selector" id="y2_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y2_steps" title="">steps</label>
+<input type="radio" class="btn-check" name="y2_axis_selector" id="y2_highres_steps" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y2_highres_steps" title="">highres steps</label>
+<input type="radio" class="btn-check" name="y2_axis_selector" id="y2_cfg_scale" autocomplete="off" checked=""><label class="btn btn-outline-primary" for="y2_cfg_scale" title="">cfg scale</label>
+</div>
+</div></div>
+
+                            <center>
+                                <input class="form-check-input" type="checkbox" id="showDescriptions" checked="true" autocomplete="off" onchange="javascript:toggleDescriptions()"> <label class="form-check-label" for="showDescriptions" title="Uncheck this to focus on the grid. Check it to see the full descriptions of each option.">Show descriptions of axes and values</label>
+                                &emsp;&emsp;<input class="form-check-input" type="checkbox" autocomplete="off" value="" id="autoScaleImages"> <label class="form-check-label" for="autoScaleImages">Auto-scale images to viewport width</label>
+                                &emsp;&emsp;<input class="form-check-input" type="checkbox" autocomplete="off" value="" id="stickyNavigation"> <label class="form-check-label" for="stickyNavigation">Sticky navigation</label>
+                                &emsp;&emsp;<span id="score_setting">Score Display: <select id="score_display"><option>None</option><option>Thin Outline</option><option>Thick Bars</option><option>Heatmap</option></select></span>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="save_image_helper">
+                <button onclick="makeImage()">Save Image Of Current View</button> <select title="Image Type" id="makeimage_type"><option>jpeg</option><option>png</option></select>
+                <button onclick="makeGif()">Create Axis GIF Animation</button> <select title="Axis" id="makegif_axis"></select> <select title="GIF Size" id="makegif_size"><option>1x</option><option>0.75x</option><option>0.5x</option><option>0.25x</option></select> <select title="GIF Speed" id="makegif_speed"><option>1/s</option><option>2/s</option><option>3/s</option><option>4/s</option><option>5/s</option><option>10/s</option></select>
+                <div id="save_image_info" style="display: none;">Here's your image! To share it, just use right click -> Copy image or Save Image As</div>
+            </div>
+        </div>
+        <div style="margin: auto; width: fit-content;">
+            <table id="image_table"></table>
+            <table id="image_script_dump"></table>
+        </div>
+    </center>
+    <div class="modal modal-fullscreen popup_modal_background" id="image_info_modal"></div>
+    <br><div style="width:256px;height:512px;"></div> <!-- Spacer to reduce screen-jumping if images load while you're scrolled down -->
+    <footer>
+        <center>
+            <hr>
+            Created by: Unspecified
+            <br>The technology that powers this page is <a href="https://github.com/mcmonkeyprojects/sd-infinity-grid-generator-script">Infinity Grid Generator</a>, published under the MIT license by Alex 'mcmonkey' Goodwin.
+            <br>This software allows users to generate pages with any content they desire. Therefore, content on this page (images, text, etc.) is the property of whoever generated this specific page.
+            <br>Images area auto-generated by an AI (Stable Diffusion) and so may not have been reviewed by the page author before publishing.
+<script src="a1111webui.js?vary=9"></script>
+            <br>Made using the <a href="https://bootswatch.com/darkly/">Darkly Bootstrap Theme</a> by Thomas Park, which was released under the <a href="https://github.com/thomaspark/bootswatch/blob/95df99d76147797cbcb1014b639805add2327f65/LICENSE">MIT License</a>.
+            <br>Gifs are generated using <a href="https://github.com/antimatter15/jsgif">JSGif</a>, which was released under the <a href="https://github.com/antimatter15/jsgif/blob/b46429c50a53d23b762d6ebb00b375aece3ed843/LICENSE">MIT License</a>.
+            <br>
+            <br><div style="width:256px;height:512px;"></div>
+        </center>
+    </footer>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="jsgif.js"></script>
+    <script src="data.js?vary=944c71f5"></script>
+    <script src="proc.js?vary=944c71f5"></script>
+</body>
